@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.caja {
+    width: 80px;
+    height: 30px;
+    background-color: rgba(221, 213, 213);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.caja input {
+
+    appearance: none;
+    position: absolute;
+}
+
+.caja label img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.caja label {
+    font-size: 2rem;
+    position: absolute;
+    transform: translate(-8px, -5px);
+    -webkit-transform: translate(-8px, -5px);
+    -moz-transform: translate(-8px, -5px);
+    -ms-transform: translate(-8px, -5px);
+    -o-transform: translate(-8px, -5px);
+    transition: .7s;
+    -webkit-transition: .7s;
+    -moz-transition: .7s;
+    -ms-transition: .7s;
+    -o-transition: .7s;
+}
+
+.caja input:checked~label {
+    transform: translate(50px, -5px);
+    -webkit-transform: translate(50px, -5px);
+    -moz-transform: translate(50px, -5px);
+    -ms-transform: translate(50px, -5px);
+    -o-transform: translate(50px, -5px);
+}
+
+#Dia_Noche image {
+    width: 200px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
